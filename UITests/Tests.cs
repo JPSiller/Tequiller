@@ -1,8 +1,6 @@
-﻿using System;
-using System.IO;
-using System.Linq;
-using NUnit.Framework;
+﻿using System.Linq;
 using Xamarin.UITest;
+using NUnit.Framework;
 using Xamarin.UITest.Queries;
 
 namespace Tequiller.UITests
