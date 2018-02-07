@@ -151,9 +151,41 @@
     <AndroidResource Include="Resources\layout\Toolbar.axml" />
     <AndroidResource Include="Resources\values\styles.xml" />
     <AndroidResource Include="Resources\drawable\icon.png" />
-    <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
-    <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
-    <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\main.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\main.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\main.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\favorite.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\favorite.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\favorite.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\search.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\search.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\search.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\settings.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\settings.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\settings.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\cocktail.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\hangover.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\medal.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\mexico_flag.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\no_alcohol.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\shot_glass.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\cocktail.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\hangover.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\medal.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\mexico_flag.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\no_alcohol.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\shot_glass.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\cocktail.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\hangover.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\medal.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\mexico_flag.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\no_alcohol.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\shot_glass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\drawable-hdpi\" />
+    <Folder Include="Resources\drawable-xhdpi\" />
+    <Folder Include="Resources\drawable-xxhdpi\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Android.Support.Compat.25.4.0.2\build\MonoAndroid70\Xamarin.Android.Support.Compat.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Compat.25.4.0.2\build\MonoAndroid70\Xamarin.Android.Support.Compat.targets')" />
