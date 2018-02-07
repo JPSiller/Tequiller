@@ -145,6 +145,38 @@
     <Compile Include="AppDelegate.cs" />
     <Compile Include="IosInitializer.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cocktail.png" />
+    <BundleResource Include="Resources\cocktail%402x.png" />
+    <BundleResource Include="Resources\cocktail%403x.png" />
+    <BundleResource Include="Resources\favorite.png" />
+    <BundleResource Include="Resources\favorite%402x.png" />
+    <BundleResource Include="Resources\favorite%403x.png" />
+    <BundleResource Include="Resources\hangover.png" />
+    <BundleResource Include="Resources\hangover%402x.png" />
+    <BundleResource Include="Resources\hangover%403x.png" />
+    <BundleResource Include="Resources\main.png" />
+    <BundleResource Include="Resources\main%402x.png" />
+    <BundleResource Include="Resources\main%403x.png" />
+    <BundleResource Include="Resources\medal.png" />
+    <BundleResource Include="Resources\medal%402x.png" />
+    <BundleResource Include="Resources\medal%403x.png" />
+    <BundleResource Include="Resources\mexico_flag.png" />
+    <BundleResource Include="Resources\mexico_flag%402x.png" />
+    <BundleResource Include="Resources\mexico_flag%403x.png" />
+    <BundleResource Include="Resources\no_alcohol.png" />
+    <BundleResource Include="Resources\no_alcohol%402x.png" />
+    <BundleResource Include="Resources\no_alcohol%403x.png" />
+    <BundleResource Include="Resources\search.png" />
+    <BundleResource Include="Resources\search%402x.png" />
+    <BundleResource Include="Resources\search%403x.png" />
+    <BundleResource Include="Resources\settings.png" />
+    <BundleResource Include="Resources\settings%402x.png" />
+    <BundleResource Include="Resources\settings%403x.png" />
+    <BundleResource Include="Resources\shot_glass.png" />
+    <BundleResource Include="Resources\shot_glass%402x.png" />
+    <BundleResource Include="Resources\shot_glass%403x.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.5.0.122203\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.5.0.122203\build\netstandard1.0\Xamarin.Forms.targets')" />
 </Project>
