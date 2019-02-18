@@ -18,5 +18,10 @@ namespace Tequiller.Views
                 (child?.BindingContext as INavigatingAware)?.OnNavigatingTo(parameters);
             }
         }
+
+        public void OnNavigatingTo(INavigationParameters parameters)
+        {
+            //throw new System.NotImplementedException();
+        }
     }
 }
